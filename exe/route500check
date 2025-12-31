@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "route_500_check"
+
+# 実行は必ず CLI 経由に集約
+Route500Check.run
